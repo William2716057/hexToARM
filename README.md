@@ -6,3 +6,12 @@ Using the Capstone disassembler library, the script interprets each hexadecimal 
 ## Requirements
 - Python 3.x
 - Capstone disassembly library
+
+### Installation
+```
+pip install capstone
+```
+
+### Usage
+```
+python 
