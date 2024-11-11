@@ -141,3 +141,7 @@ Enter hex: 370301e3ba1c0ae3e51d4be3c82309e3592a4de3000060e2631f0ce3de1345e3c4220
 0x11c8: and     r0, r0, r2
 ```
 
+### How It Works
+1. Initialize the Capstone Disassembler: Set up Capstone to disassemble ARM machine code.
+2. Convert Hexadecimal Input: Convert the input hexadecimal string to byte format, which Capstone can interpret.
+3. Disassemble Each Instruction: Use Capstone to disassemble each instruction and print the results.
